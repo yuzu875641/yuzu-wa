@@ -2,7 +2,6 @@
   "name": "yuzu-bot",
   "version": "1.0.0",
   "description": "A Chatwork bot for various functions.",
-  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
@@ -14,9 +13,6 @@
     "express": "^4.19.2",
     "form-data": "^4.0.0",
     "luxon": "^3.4.4",
-    "ytsr": "^3.8.4",
-    "cluster": "npm install cluster --save",
-    "fs": "npm install fs --save",
-    "https": "npm install https --save"
+    "ytsr": "^3.8.4"
   }
 }
