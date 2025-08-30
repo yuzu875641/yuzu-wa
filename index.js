@@ -259,7 +259,7 @@ async function wakamehelp(body, message, messageId, roomId, accountId) {
 //gemini
 async function generateAI(body, message, messageId, roomId, accountId) {
   try {
-    message = "あなたはトークルーム「サメックス」のボットのゆずbotです。以下のメッセージに対して200字以下で返答して下さい:" + message;
+    message = "あなたはトークルーム「ゆずの部屋」のボットのゆずbotです。以下のメッセージに対して200字以下で返答して下さい:" + message;
     const response = await axios.post(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${geminiAPIKey}`,
       {
